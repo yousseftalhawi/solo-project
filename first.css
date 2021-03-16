@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://www.blogenium.com/wp-content/uploads/2019/08/blogenium-dark-wallpapers-backgrounds-14.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:rgb(229, 243, 200);
+    font-size: 50px;
+    font-weight: bold;
+    left: 0;
+    line-height: 50px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+   }
+
+   #start { 
+    background-color: #020c22; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+    
+  }
+  #start:hover {
+    background-color:black; 
+    color: white;
+  }
+
+
+input[type=radio]{
+    width: 2em;
+    height: 2em;
+}
+
+  #title{
+    text-decoration: overline;
+    color: rgb(247, 117, 11);
+  }
+
+  #question{
+    color: rgb(247, 117, 11);
+    margin-bottom: 50px;
+    font-size: 100px;
+  }
+
+  #answer{
+    color: #fff;
+  }
+
+  #next{
+    background-color: #fff; 
+    border: none;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+  }
+  #Next:hover {
+    background-color:black; 
+    color: white;
+  }
